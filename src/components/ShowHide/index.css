@@ -1,0 +1,83 @@
+/* Write your CSS here */
+* {
+  box-sizing: 0px;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7, #dd1264);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 28px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+.names-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .names-container {
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.button {
+  height: 35px;
+  width: 160px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #dd1264;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.name-card {
+  height: 80px;
+  width: 160px;
+  background-color: #fddddb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.name-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
